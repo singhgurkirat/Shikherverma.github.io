@@ -1,10 +1,10 @@
 <head>
 
-<link rel="stylesheet" href="simplegallery.css" />
+<link rel="stylesheet" href="css/simplegallery.css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="jquery.touchSwipe.min.js"></script>
 
-<script type="text/javascript" src="simplegallery.js">
+<script type="text/javascript" src="js/simplegallery.js">
 
 /***********************************************
 * Simple Controls Gallery- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
@@ -17,13 +17,14 @@
 <script type="text/javascript">
 
 var mygallery=new simpleGallery({
+    align: "middle",
     wrapperid: "simplegallery1", //ID of main gallery container,
-    dimensions: [250, 180], //width/height of gallery in [pixels, pixels] or ['percentage%', pixels]
+    dimensions: ['80%', 500], //width/height of gallery in [pixels, pixels] or ['percentage%', pixels]
     imagearray: [
-        ["img/superstar/1.jpg"],
-        ["img/superstar/2.jpg"],
-        ["img/superstar/3.jpg"],
-        ["img/superstar/4.jpg"]
+        ["img/superstar/1.jpg","","",""],
+        ["img/superstar/2.jpg","","",""],
+        ["img/superstar/3.jpg","","",""],
+        ["img/superstar/4.jpg","","",""]
     ],
     autoplay: [true, 2500, 2], //[auto_play_boolean, delay_btw_slide_millisec, cycles_before_stopping_int]
     persist: false,
