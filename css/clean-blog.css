@@ -24,7 +24,7 @@ hr.small{max-width:100px;margin:15px auto;border-width:4px;border-color:white;}
 .navbar-custom .navbar-brand:focus{color:rgba(255, 255, 255, 0.8);}
 .navbar-custom .nav li a{color:black;padding:20px;}
 .navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus{color:rgba(255, 255, 255, 0.8);}
+.navbar-custom .nav li a:focus{color:rgba(0, 0, 0, 0.8);}
 }
 @media only screen and (min-width:1170px){.navbar-custom{-webkit-transition:background-color 0.3s;-moz-transition:background-color 0.3s;transition:background-color 0.3s;-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);-ms-transform:translate3d(0, 0, 0);-o-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);-webkit-backface-visibility:hidden;backface-visibility:hidden;}
 .navbar-custom.is-fixed{position:fixed;top:-61px;background-color:rgba(255, 255, 255, 0.9);border-bottom:1px solid #f2f2f2;-webkit-transition:-webkit-transform 0.3s;-moz-transition:-moz-transform 0.3s;transition:transform 0.3s;}
@@ -102,7 +102,7 @@ form .row:first-child .floating-label-form-group{border-top:1px solid #eeeeee;}
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span{color:#808080;background-color:#404040;cursor:not-allowed;}
-::-moz-selection{color:white;text-shadow:none;background:#0085a1;}
+::-moz-selection{color:black;text-shadow:none;background:#0085a1;}
 ::selection{color:white;text-shadow:none;background:#0085a1;}
 img::selection{color:white;background:transparent;}
 img::-moz-selection{color:white;background:transparent;}
