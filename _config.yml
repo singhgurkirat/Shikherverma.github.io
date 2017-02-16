@@ -5,9 +5,9 @@ email: singhhunny08@gmail.com
 copyright_name: TheUnheardSilence
 description: "The Unheard Silence"
 baseurl: "" #base url is for when the site is not at the root but at some subdirectory.
-disqus_url: shikherverma.com # disque comments are broken if you send http:// along with url
+disqus_url: theunheardsilence.github.io # disque comments are broken if you send http:// along with url
 github_username:  theunheardsilence
-facebook_username: gurkirat.singh.169
+facebook_username: facecook.com
 
 # used to estimate reading time
 wpm: 150
