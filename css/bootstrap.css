@@ -260,6 +260,29 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+
+@font-face {
+  font-family: 'Amarillo';
+
+  src: url('../fonts/Amarillo.eot');
+    src: url('../fonts/Amarillo.otf');
+      src: url('../fonts/Amarillo.ttf');
+}
+
+@font-face {
+  font-family: 'Amarillo';
+
+
+}
+
+#changes{
+ font-family:'Amarillo';
+}
+
+p {
+  font-family: 'Amarillo' ;
+}
+
 @font-face {
   font-family: 'Glyphicons Halflings';
 
