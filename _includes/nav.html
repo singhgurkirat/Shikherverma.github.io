@@ -14,7 +14,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="navbar-header page-scroll">
                 {% for page in site.pages %} {% if page.title %} {% if page.url != '/404.html' %} {% if page.title != site.index_title %} {% if page.url contains "/page" or page.url contains "/tags/" or page.url contains "/search" %} {% else %}
                 <li>
                     <a class="navbar-brand" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
